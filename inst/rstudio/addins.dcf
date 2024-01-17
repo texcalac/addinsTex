@@ -1,0 +1,24 @@
+Name: Insertar encabezado
+Description: Inserta encabezado al script.
+Binding: insert_header
+Interactive: false
+
+Name: Insertar símbolo "="
+Description: Inserta símbolo igual para generar nueva sección.
+Binding: insert_equals
+Interactive: false
+
+Name: Insertar sub-sección
+Description: Inserta encabezado de nueva sub-sección al script.
+Binding: insert_subsection
+Interactive: false
+
+Name: Usar el tema claro
+Description: Usar el tema claro en RStudio: Textmate (default).
+Binding: use_daytime_theme
+Interactive: false
+
+Name: Usar el tema oscuro
+Description: Usar el tema oscuro en RStudio: R Espacial ES Dark.
+Binding: use_nighttime_theme
+Interactive: false
