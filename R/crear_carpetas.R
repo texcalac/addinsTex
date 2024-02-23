@@ -11,8 +11,8 @@ crear_carpetas <- function(){
   carpetas <- c("code", "data", "output", "shapefiles", "markdown")
 
   for (i in seq_along(carpetas)) {
-    dir_path <- file.path(ruta_proyecto, carpetas[i])
-    if (!dir.exists(ruta_proyecto)) dir.create(ruta_proyecto)
+    ruta_carpeta <- file.path(ruta_proyecto, carpetas[i])
+    if (!dir.exists(ruta_carpeta)) dir.create(ruta_carpeta)
   }
 
 }
