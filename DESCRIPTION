@@ -14,9 +14,10 @@ License: MIT + file LICENSE
 Depends:
     R (>= 3.0.0)
 Imports:
-    rstudioapi (>= 0.4)
+    rstudioapi (>= 0.4),
+    stringi
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.0
 URL: https://github.com/texcalac/addinsTex
 BugReports: https://github.com/texcalac/addinsTex/issues

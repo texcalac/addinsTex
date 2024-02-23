@@ -22,3 +22,13 @@ Name: Usar el tema oscuro
 Description: Usar el tema oscuro en RStudio: R Espacial ES Dark.
 Binding: use_nighttime_theme
 Interactive: false
+
+Name: Crear carpetas de proyecto
+Description: Genera diversas carpetas a un poryecto.
+Binding: crear_carpetas
+Interactive: false
+
+Name: Crear vector de texto en script
+Description: Función para generar un vector de texto.
+Binding: vector_texto
+Interactive: false
